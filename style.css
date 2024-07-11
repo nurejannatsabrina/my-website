@@ -1,0 +1,82 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    font-size:50px;
+}
+
+.orange{
+    color:steelblue;
+}
+
+.fluid-container{
+    display:flex;
+	margin-bottom:100px;
+}
+.half-width{
+	width:50%;
+	padding:4%;
+}
+.half-width p{
+	margin-bottom:30px;
+	font-weight:lighter;
+}
+.half-width img{
+	width:60%;
+	padding-left:20px;
+}
+.btn{
+	color:white;
+	text-decoration:none;
+	background-image:linear-gradient(steelblue,purple);
+	font-weight:700;
+	padding:10px 40px;
+	border-radius:10px;
+}
+.top-banner{
+	background-image:url(images/tb.jpg);
+	background-repeat:no-repeat;
+}
+.dream-banner{
+	background-image:url(images/dr.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+.skills-box{
+	width:40%;
+	margin-left:5%;
+	margin-right:5%;
+	padding-left:20px;
+	box-shadow:10px 10px 10px gray;
+	border-radius:15px;
+	border-right:5px solid royalblue;
+	transition:3s;
+}
+.skills-box:hover{
+	transform:scale(1.1);
+}
+.h2-width{
+	font-size:40px;
+}
+.experience-bg {
+	background-image:url(images/ex.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+}
+footer{
+	 text-align:center;
+	 font-size:15px;
+	 margin:5px;
+}
+img{
+	height:auto;
+	width:70%;
+    transition:3s;
+	
+
+}
+img:hover{
+	transform:scale(1.1)
+	
+}
